@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Favorite Food Recipes</title>
+  <style>
+    /* Table Layout */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    td {
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+
+    /* Header */
+    #header {
+      color: white;
+      text-align: center;
+      background: black url(images/banner.jpg) no-repeat;
+      height: 320px;
+      font-weight: bold;
+      font-size: large;
+    }
+
+    #header h1 {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Navigation bar*/
+    #navigation {
+      text-align: center;
+      width: 100%;
+      background-color: #2d3437;
+      overflow: hidden;
+    }
+
+    #navigation ul {
+      list-style: none;
+      margin: 0px;
+      padding: 0px;
+      list-style-type: none;
+    }
+
+    #navigation li {
+      display: inline-block;
+      margin: 0px;
+      background-color: #2d3437;
+      padding: 0px;
+    }
+    li button{
+        padding: 10px;
+        background-color: #2d3437;
+        text-align: center;
+        color: white;
+        font-size: large;
+        margin: 10px;
+        font-weight: bold;
+    }
+
+    #navigation a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    /* Main Content */
+    #main {
+      text-align: justify;
+      padding: 20px;
+      width: 900px;
+      box-sizing: border-box;
+      display: flex;
+      margin: 0px auto;
+    }
+
+    /* Footer */
+    #footer {
+      background-color: #f2f2f2;
+      text-align: center;
+    }
+
+    #footer p {
+      margin: 0;
+      padding: 0;
+    }
+    button:hover{
+        background-color: orangered;
+        border: 1px solid white;
+        color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <tr>
+      <td id="header" colspan="3">
+        <h1>My Favorite Food Recipes</h1>
+      </td>
+    </tr>
+    <tr>
+      <td id="navigation" colspan="3">
+        <ul>
+          <li><a href="index.html"><button>Home</button></a></li>
+          <li><a href="maincoursereceipes.html"><button>Main Course Recipes</button></a></li>
+          <li><a href="dessertsrecipes.html"><button>Dessert Recipes</button></a></li>
+          <li><a href="veggierecipes.html"><button>Veggie Recipes</button></a></li>
+          <li class="active"><a href="references.html"><button>References</button></a></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            <h1 style="text-align: center;">References</h1>
+        </td>
+    </tr>
+    <tr id="main">
+      <td>
+          <h2>Here, I have Referenced the materials that I have used</h2>   
+          <p>Website Created by ealkhali</p>
+          <h2>VideoClip</h2>
+          <ul>
+            <li><a href="https://www.allrecipes.com/recipe/166678/easy-curry-rice/"> Rice</a></li>
+            <li><a href="https://www.youtube.com/watch?v=PCHIWN-Wi3M"> glass of water</a></li>
+            <li><a href="https://www.youtube.com/watch?v=9DSMgVG0--8"> sound</a></li>
+            <li><a href="./originals/videoclip.mlt">Source File</a></li>
+          </ul>
+          <h2>Animated Video</h2>
+          <ul>
+            <li><a href="https://d3c699y7ogacoe.cloudfront.net/wp-content/uploads/2020/06/0b2ff17b45824ae4a0a3f58ab253882f.png">Restaurant</a></li>
+            <li><a href="https://st.depositphotos.com/9876904/54911/v/450/depositphotos_549110572-stock-illustration-young-waitress-serving-food-white.jpg">Waiter 1</a></li>
+            <li><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vectorstock.com%2Froyalty-free-vectors%2Fwaiter-cartoon-vectors&psig=AOvVaw1AxMpLPh07Rts5Lggb0tl_&ust=1701555308269000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIjUudGh74IDFQAAAAAdAAAAABAI">Water 2</a></li>
+            <li><a href="./originals/animation.pptx">Original PPT File</a></li>
+          </ul>
+          <h2>Main Course Recipes</h2>
+          <ul>
+            <li><a href="https://media.istockphoto.com/id/503203991/photo/homemade-italian-chicken-parmesan.jpg">Creamy tomato image</a></li>
+            <li><a href="hhttps://media.istockphoto.com/id/1281404116/photo/fried-salmon-steaks-fried-potatoes-and-fresh-vegetables-on-wooden-table.jpg?s=612x612&w=0&k=20&c=3yGaSTFKy9FDo7QI83_yJG1g2jO4dfS9n4e9NbFijgI=">baked salmon image</a></li>
+            <li><a href="https://d3c699y7ogacoe.cloudfront.net/wp-content/uploads/2020/06/0b2ff17b45824ae4a0a3f58ab253882f.png">chickpea image</a></li>
+          </ul>
+          <h2>Dessert Recipes</h2>
+          <ul>
+            <li><a href="https://st4.depositphotos.com/3534893/31520/i/1600/depositphotos_315205694-stock-illustration-set-of-watercolor-desserts-with.jpg">general category image</a></li>
+            <li><a href="https://bakesbybrownsugar.com/wp-content/uploads/2021/11/Apple-Cranberry-Crumble-Pie-5.jpg">apple crumble image</a></li>
+            <li><a href="https://www.mashed.com/img/gallery/nestls-cookie-dough-is-being-recalled-for-wood-chip-contamination/intro-1692031736.jpg">chocolate chip image</a></li>
+            <li><a href="https://www.pccmarkets.com/wp-content/uploads/2021/01/pcc-vegan-chocolate-mousse-flo.jpg">vegan chocolate image</a></li>
+          </ul>
+          <h2>Veggie Recipes</h2>
+          <ul>
+            <li><a href="https://freerangestock.com/sample/151076/a-bowl-of-salad-with-vegetables.jpg">General category image</a></li>
+            <li><a href="https://www.stockvault.net/data/2017/04/28/235170/preview16.jpg">Roated Brussels image</a> </li>
+            <li><a href="https://res.cloudinary.com/hksqkdlah/image/upload/23399_sfs-stir-fried-tofu-with-bok-choy-008.jpg">Stir-Fried Tofu image</a></li>
+            <li><a href="https://i1.pickpik.com/photos/449/299/616/thai-curry-green-curry-curry-chili-preview.jpg">vegatable curry image</a></li>
+          </ul>
+      </td>
+    </tr>
+    <tr>
+      <td id="footer" colspan="3">
+        <p>&copy; 2023 My Favorite Food Recipes</p>
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
